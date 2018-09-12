@@ -6,8 +6,8 @@ import codecs
 
 kkma = Kkma() # call kokoma POS tagger
 
-fname = 'spk1_freedialogue_TF.txt' #merged_raw_text
-with open('POS_spk1_TF.txt','w') as outfile:
+fname = 'spk2_freedialogue_TF_clean.txt' #merged_raw_text
+with open('POS_spk2_TF.txt','w') as outfile:
 	with open(fname) as infile: #,"r","utf-8"
 		for line in infile:
 			lines = line.decode('utf-8')
